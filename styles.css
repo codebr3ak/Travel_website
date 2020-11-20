@@ -1,0 +1,159 @@
+
+.container{
+    width: 100%;
+    /* width: 100vh; */
+    /* height: 590px;  */
+    /* background-color: black; */
+}
+ body, ul, li, h1, h2, a{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background: #FAAE1C;
+    padding: 20px;
+    position: sticky;
+    top: 106px;
+    z-index: 1;
+}
+
+nav ul{
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+nav li{
+    font-size: 24px;
+    width: 25%;
+    display: inline-block;
+} 
+
+nav li a{
+    text-decoration: none;
+    color: #4B4B4B;
+  }
+  nav li a:hover{
+    text-decoration: underline;
+  }
+
+p{
+    font-size: 18px;
+}
+.wrapper{
+    margin-top: 1px;
+    height: 300px;
+    background-color: #4B4B4B;
+    background-image: url(./images/lake-manyara.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.wrapper h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.content{
+    height:300px;
+    /* padding-top: 1px; */
+    padding: 20px;
+}
+.first{
+    width: 49%;
+    /* background-color: aqua; */
+    height: 100%;
+    float: left;
+}
+.first img{
+    width: 100%;
+    height: 100%;
+}
+.third{
+    width: 49%;
+    /* background-color: blue; */
+    height: 100%;
+    float: right;
+
+}
+h2{text-align: center;}
+.third img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    text-align: center;
+}
+
+.content1{
+    height:300px;
+    padding: 20px;
+    
+}
+img{
+    margin: 20px;
+}
+.second{
+    width: 49%;
+    /* background-color: aqua; */
+    height: 100%;
+    float: left;
+    /* padding: 1px; */
+}
+.second img{
+    height: 100%;
+    width: 100%;
+}
+.last{
+    width: 49%;
+    /* background-color: blue; */
+    height: 100%;
+    float: right;
+
+}
+.last img{
+    width: 100%;
+    height: 100%;
+}
+
+#about{
+    line-height: 2em;
+    top: 25px;
+    height: 500px;
+}
+
+#about h3{
+    color: #0a0a0a;
+    margin-left: 15px;
+    bottom: 75%;
+}
+
+#about p{
+    color: black;
+    text-align: center;
+}
+
+.contacts{
+    background-color: cadetblue;
+} 
+
+.contacts h2{
+    color: #100F0F;
+}
+
+form input{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid grey;
+}
+
+
+
+
+
+
